@@ -1,6 +1,6 @@
 div {
-    margin-left: 115px;
-    margin-right: 115px;
+    margin-left: 100px;
+    margin-right: 100px;
     background:url(./herbe.png);
 }
 
@@ -9,3 +9,13 @@ body {
     background: #333;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.taupe {
+    background: brown;
+    border-radius: 80px;
+}
