@@ -23,7 +23,7 @@
         };
 
         //je setinterval ma fonction show avec 1000ms.
-        setInterval(show, 1500);
+        setInterval(show, 300);
         
         
         $('.hole').children('.img').click(function() {
