@@ -28,8 +28,6 @@ body{
     gap: 80px;
 }
 .hole{
-    justify-content: center;
-    display: inherit;
     background-color: rgb(165, 85, 11);
     border-radius: 50%;
     box-shadow: inset 0 10px 0 7px rgb(53, 21, 6),
@@ -61,6 +59,7 @@ body{
     position: absolute;
     top: 100px;
     left: 100px;
+    background-image: url('assets/hammer.png');
     background-size: 100% 100%;
     transform: translate(-20%, -20%);
     transition: transform .1s;
@@ -68,14 +67,4 @@ body{
 }
 .cursor.active{
     transform: translate(-20%, -20%) rotate(-45deg);
-}
-
-.img{
-    visibility: hidden;
-    width: 70%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 0;
-    animation: rise .3s ease-out;
 }
