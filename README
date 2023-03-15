@@ -1,1 +1,21 @@
 
+Contexte du projet
+Tap Taupe est un jeu où il y a 9 trous, dans lesquels les taupes apparaissent aléatoirement (et pour une durée aléatoire également).
+
+Le principe du jeu est assez simple : dès que le joueur clique sur une taupe, la taupe se cache et le joueur gagne 1 point.
+Le jeu doit, bien entendu, afficher les points du joueur.
+
+Je voudrais pouvoir y jouer de n'importe où et n'importe quand, donc hébergez-le sur une page Github, ce sera taupe !
+
+Et bien sûr, comme c'est un jeu, il faut qu'il soit fonctionnel... et fun !
+
+Soignez le visuel, et utilisez jQuery, bien entendu ;)
+
+**Bonus (uniquement quand vous avez un jeu qui fonctionne) : **
+
+Créer une partie avec une durée limitée (ex : 30 secondes), en demandant le nom du joueur. La partie se lance au click sur le bouton "start",
+Créer un leader board (nom du joueur et nombre de points), classé du plus fort au plus faible, et l'afficher sur la page d'accueil du jeu,
+Créer 3 niveaux de difficulté !
+​
+
+PS : si vous n'avez vraiment pas compris le principe du jeu, regardez la démo du petit chat du gif...
